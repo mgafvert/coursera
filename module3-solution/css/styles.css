@@ -1,0 +1,78 @@
+body {
+    font-size: 16px;
+    color: #000000;
+    font-family: 'Comic Sans MS', sans-serif;
+  }
+
+  /** HEADER **/
+#header-nav {
+    background-color: #919191;
+    border-radius: 0;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+}
+
+  .navbar-brand {
+    padding-top: 15px;
+  }
+
+  .navbar-brand h1 { /* Restaurant name */
+    color: #000000;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+  }
+
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+
+  #nav-list {
+    margin-top: 10px;
+    background-color: #ffffff;
+    text-align: center;
+    margin: 0;
+ 
+}
+
+#collapsable-nav {
+    padding:0;
+}
+
+  #collapsable-nav ul li {
+    border: 3px solid #000000;
+  }
+
+  #navbutton .icon-bar, #navbutton  {
+    border: 3px solid #000000;
+    background-color: #919191;
+  }
+
+  
+  .navbar-header {
+    clear: both;
+  }
+
+  #menusection h1 {
+font-size: 1.4em;
+font-weight: bold;
+text-align: center;
+}
+
+#menusection h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    }
+
+#chicken-tile, #beef-tile, #curry-tile {
+    background-color: #919191; 
+    padding: 10px;  
+    position: relative;
+    width: 100%;
+    margin: 5px;
+}
+ 
